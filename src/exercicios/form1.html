@@ -1,0 +1,27 @@
+<html> 
+<head><title>Curso de PHP com MySQL</title></head> 
+<body> 
+<form name="form1" method="post" action="RespForm1.php"> 
+<p>Nome:<br> 
+ <input name="nome" type="text" id="nome" size="30" maxlength="30"></p> 
+<p>Senha:<br><input name="senha" type="password" id="senha" size="10" maxlength="10"></p> 
+<p>Sexo:<br> 
+ <input name="sexo" type="radio" value="Masculino">Masculino 
+ <input name="sexo" type="radio" value="Feminino">Feminino</p> 
+<p>Selecione o Turno:<br> 
+ <input name="turno" type="checkbox" id="turno" value="Manhã">Manhã 
+ <input name="turno" type="checkbox" id="turno" value="Tarde">Tarde 
+ <input name="turno" type="checkbox" id="turno" value="Noite">Noite</p> 
+<p>Cidade:<br> 
+<select name="cidade" id="cidade"> 
+ 
+ <option value="vazio"> </option> 
+ <option value="Rio">Rio de Janeiro</option> 
+ <option value="São Paulo">São Paulo</option> 
+ <option value="Belo Horizonte">Belo Horizonte</option> 
+</select></p> 
+<p><input type="submit" value="Enviar"></p> 
+<input type='hidden' name='btnOK' value='1'> 
+</form> 
+</body> 
+</html> 
